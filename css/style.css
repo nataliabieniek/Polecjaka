@@ -1,0 +1,28 @@
+:root {
+    --main
+}
+
+body {
+    color: blue;
+    margin: 0;
+}
+.logo {
+    background-color: rgb(243, 202, 168);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslateblue;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and {max-device-width:414px}, screen{
+    body{
+        flex-direction: column;
+    }   
+}
