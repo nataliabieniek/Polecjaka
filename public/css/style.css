@@ -13,10 +13,12 @@ body{
     align-items: center;
 }
 
-.logo {
+.logo.login {
     width: 50%;
     text-align: center;
+    padding: 10%;
 }
+
 .login-container{
     width: 50%;
 }
@@ -83,4 +85,127 @@ input{
         height: 7pm;
         margin: 2em;
     }
+}
+
+.base-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+nav{
+    width: 20vw;
+    height: 100%;
+    background: transparent linear-gradient(180deg, #D74ED4 0%, #352E78 100%) 0% 0% no-repeat padding-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+nav > img {
+    width: 70%;
+    margin: 2em auto;
+}
+
+main{
+    width: 80vw;
+    
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    line-height: 2em;
+}
+
+li i{
+    font-size: 1.5em;
+}
+
+.button{
+    border: 1px solid whitesmoke;
+    border-radius: 13em;
+    margin-left: 1em;
+    text-align: center;
+    letter-spacing: 0.7px;
+    padding: 0.2em;
+    width: 60%;
+}
+ul{
+    list-style-type: none;
+    color: whitesmoke;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0.72px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: calc(100% - 40px);
+    position: relative;
+}
+li{
+    text-align: left;
+    margin-bottom: 1em;
+}
+li:last-child{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.fa, .fas{
+    font-weight: 900;
+    width: 1em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: whitesmoke;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    border-bottom: 1px solid grey;
+    background: #362E79D6 0% 0% no-repeat padding-box;
+    color: #EAE8F3D6 0% 0% no-repeat padding-box;;
+    height: 6vh;
+}
+
+.menu{
+    margin:auto 0;    
+}
+
+.user-profil{
+    margin:auto 0;
+}
+.logo-bar{
+    margin: 1em;
+    height: 80%;
+}
+.logo-in-bar{
+    margin: auto 0;
+    height: 80%;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+}
+
+.map{
+    height: 100vh;
+    width: 40vw;
+}
+
+.info-board{
+    background: transparent linear-gradient(180deg, #D74ED4 0%, #352E78 100%) 0% 0% no-repeat padding-box;
+    width: 40vw;
+    height: 100vh;
 }
