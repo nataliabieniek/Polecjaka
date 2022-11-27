@@ -9,13 +9,17 @@ body{
     width: 100vw;
     height: 100vh;
     background: transparent linear-gradient(180deg, #F655E6 0%, #262B70 100%) 0% 0% no-repeat padding-box;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .logo{
     text-align: center;
+    margin: 1em 1em 1em 1em;
+    width: 50vw;
 }
 .login-container{
-    width: 50%;
+    width: 50vw;
 }
 form{
     display: flex;
