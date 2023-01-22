@@ -118,11 +118,47 @@ header{
 .map{
     height: 94vh;
     width: 40vw;
-    background-color: #01000a;
+    background-color: rgb(251, 207, 40);
+    background-image:  url(https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&h=600);
+    background-size: auto;
+    background-position: left top;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:  stretch;
+}
+.miasto{
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    background-color: rgba(208, 24, 196, 1);
+    background-image: radial-gradient(circle, rgba(208, 24, 196, 1) 0%, rgba(3, 12, 39, 1) 50%);
+    color: whitesmoke;
 }
 
 .info-board{
     background: transparent linear-gradient(180deg, #D74ED4 0%, #352E78 100%) 0% 0% no-repeat padding-box;
     width: 40vw;
     height: 94vh;
+}
+
+.name-of-place{
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: auto;
+    color: #352E78;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 8em;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+.fa-map-marker-alt{
+    margin-top: 1em;
 }

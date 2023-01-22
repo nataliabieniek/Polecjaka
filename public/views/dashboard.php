@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
     <script src="https://kit.fontawesome.com/706968a771.js" crossorigin="anonymous"></script>
     <title>Polecajka</title>
 </head>
 <body>
     <div class="base-container">
         <nav>
-            <img src="../img/logo.svg">
+            <img src="public/img/logo.svg">
             <ul>
                 <li>
                     <i class="fas fa-map-marked-alt"></i>
@@ -29,7 +29,7 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <div class="logo-bar">
-                    <img class="logo-in-bar" src="../img/logo.svg">
+                    <img class="logo-in-bar" src="public/img/logo.svg">
                 </div>
                 <div class="user-profil">
                     <i class="fas fa-user"></i>
@@ -37,12 +37,27 @@
             </header>
             <section class="project">
                 <div class="map">
-                    <img src="../img/map.svg">
+                    <button class="miasto">Stare Miasto</button>
+                    <button class="miasto">Nowa Huta</button>
+                    <button class="miasto">Podgórze</button>
+                    <button class="miasto">Krowodrza</button>
+                    <button class="miasto">Dębniki</button>
+                    <button class="miasto">Zwierzyniec</button>
+                    <button class="miasto">Bronowice</button>
+                    <button class="miasto">Prądnik Biały</button>
+                    <button class="miasto">Prądnik Czerwony</button>
+                    <button class="miasto">Mistrzejownice</button>
+                    <button class="miasto">Czyżyny</button>
+                    <button class="miasto">Bieńczyce</button>
+                    <button class="miasto">Podgórze Duchackie</button>
+                    <button class="miasto">Bieżanów-Prokocim</button>
+                    <button class="miasto">Swoszowice</button>
+                    <button class="miasto">Łagiewniki-Borek Fałęcki</button>
                 </div>
                 <div class="info-board">
                     <div class="name-of-place">
                         <i class="fas fa-map-marker-alt"></i>
-                        <p>Nazwa miejsca, adres</p>
+                        <input name="miejsce" type="text" placeholder="Nazwa miejsca">
                     </div>
                     <div class="tags">
 
