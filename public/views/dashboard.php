@@ -11,7 +11,7 @@
             <ul>
                 <li>
                     <i class="fas fa-map-marked-alt"></i>
-                    <a href="#" class="button">Dodaj miejsce</a>
+                    <a href="http://localhost:8080/addPlace" class="button">Dodaj miejsce</a>
                 </li>
                 <li>
                     <i class="fas fa-search-location"></i>
@@ -36,38 +36,18 @@
                 </div>
             </header>
             <section class="project">
-                <div class="map">
-                    <button class="miasto">Stare Miasto</button>
-                    <button class="miasto">Nowa Huta</button>
-                    <button class="miasto">Podgórze</button>
-                    <button class="miasto">Krowodrza</button>
-                    <button class="miasto">Dębniki</button>
-                    <button class="miasto">Zwierzyniec</button>
-                    <button class="miasto">Bronowice</button>
-                    <button class="miasto">Prądnik Biały</button>
-                    <button class="miasto">Prądnik Czerwony</button>
-                    <button class="miasto">Mistrzejownice</button>
-                    <button class="miasto">Czyżyny</button>
-                    <button class="miasto">Bieńczyce</button>
-                    <button class="miasto">Podgórze Duchackie</button>
-                    <button class="miasto">Bieżanów-Prokocim</button>
-                    <button class="miasto">Swoszowice</button>
-                    <button class="miasto">Łagiewniki-Borek Fałęcki</button>
-                </div>
-                <div class="info-board">
-                    <div class="name-of-place">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <input name="miejsce" type="text" placeholder="Nazwa miejsca">
+                    <?php if (isset($places))
+                    foreach ($places as $place): ?>
+                    <div class="single-place">
+                        <img class="foto-of-place" src="public/uploads/<?= $place->getImage(); ?>">
+                        <h2><?= $place->getTitle(); ?></h2>
+                        <p>Opis polecenia:  <?= $place->getDescription(); ?></p>
+                        <p><?= $place->getDistrict(); ?> </p>
+                        <p><?= $place->getAddress(); ?></p>
                     </div>
-                    <div class="tags">
-
-                    </div>
-                    <div class="comments">
-
-                    </div>    
-                </div>
+                    <?php endforeach; ?>
+                </section>
             </section>
         </main>
-
     </div>
 </body>

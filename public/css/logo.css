@@ -20,14 +20,18 @@ body{
 }
 .login-container{
     width: 50vw;
+    height: 70vh;
+    overflow: auto;
+    margin-left: 1em;
 }
 form{
+    overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 40vh;
+    color: whitesmoke;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
@@ -54,6 +58,9 @@ button{
 }
 .login-button:hover{
     background: #5c56a3b8 0% 0% no-repeat padding-box;
+}
+.sing-up-button:hover{
+    background: #fcc4ff;
 }
 input{
     font-weight: bold;
@@ -83,4 +90,7 @@ input{
         height: 7pm;
         margin: 2em;
     }
+}
+.no-valid{
+    border: 3px solid red;
 }

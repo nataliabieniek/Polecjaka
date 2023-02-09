@@ -9,8 +9,4 @@ class DefaultController extends AppController{
         $this->render('login');
     }
 
-    public function dashboard()
-    {
-        $this->render('dashboard');
-    }
 }
