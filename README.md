@@ -16,3 +16,9 @@ Strona główna:
 
 Dodawanie własnego polecenia:
 ![image](https://user-images.githubusercontent.com/72561914/217788891-3d44cfa6-9c7a-4566-8703-8cca0541257f.png)
+
+Widoki mobilne:
+![image](https://user-images.githubusercontent.com/72561914/217811686-70479c0a-c059-44ce-852b-4dcf5afc16c3.png)
+![image](https://user-images.githubusercontent.com/72561914/217813432-a806e6a9-b0db-466d-af8b-bc07edbf80de.png)
+![image](https://user-images.githubusercontent.com/72561914/217813628-c000c0be-dd00-4cd9-ab0a-c46ac3be7a70.png)
+![image](https://user-images.githubusercontent.com/72561914/217813701-5d0812d5-c307-4264-97ac-f8e2ba49278d.png)
