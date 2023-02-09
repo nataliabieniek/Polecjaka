@@ -81,7 +81,7 @@
                         </select><br>
                         <label>Opis polecenia:</label><br>
                         <textarea class="element-forms" name="description" rows="5" placeholder="opis"></textarea><br>
-                        <label>Zdjęcia:</label><br>
+                        <label>Zdjęcie:</label><br>
                         <input class="element-forms" type="file" name="file"><br>
                         <button class="element-forms" type="submit">Wyślij</button>
                     </div>

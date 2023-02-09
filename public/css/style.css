@@ -196,3 +196,21 @@ header{
 .miasto:hover{
     background: #683bff;
 }
+
+@media only screen and (max-device-width: 420px) {
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+        display: none;
+    }
+    .info-board{
+        width: 80vw;
+    }
+    .form-adding-place{
+        height: 80%;
+        width: 60%;
+        font-size: xx-large;
+    }
+}
