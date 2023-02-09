@@ -31,7 +31,7 @@ class SecurityController extends AppController
             return $this->render('login', ['messages' => ['User with this email not exist!']]);
         }
 
-        if ($user->getPassword() !== $password) {
+        if ($user->getPassword() !== md5($password)) {
             return $this->render('login', ['messages' => ['Wrong password!']]);
         }
 

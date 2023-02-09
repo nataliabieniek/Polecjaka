@@ -7,8 +7,9 @@ class UserRepository extends Repository
     public function getUser(string $email): ?User
     {
         $stmt = $this->database->connect()->prepare('
-            SELECT * FROM users 
+            SELECT * FROM users WHERE email = :email
         ');
+        $stmt->bindParam(':email', $email, PDO::PARAM_STR);
          $stmt->execute();
 
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -27,12 +28,11 @@ class UserRepository extends Repository
     public function addUser(User $user): void
     {
         $stmt = $this->database->connect()->prepare('
-            INSERT INTO users (id, name, surname, email, password, phone)
-            VALUES (?, ?, ?, ?, ?, ?)
+            INSERT INTO users (name, surname, email, password, phone)
+            VALUES (?, ?, ?, ?, ?)
         ');
 
         $stmt->execute([
-            $this->getUserId($user),
             $user->getName(),
             $user->getSurname(),
             $user->getEmail(),
