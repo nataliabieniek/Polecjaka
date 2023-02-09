@@ -15,25 +15,17 @@
                 </li>
                 <li>
                     <i class="fas fa-search-location"></i>
-                    <a href="#" class="button">Szukaj poleceń</a>
+                    <a href="http://localhost:8080/dashboard" class="button">Szukaj poleceń</a>
                 </li>
                 <li>
                     <i class="fas fa-cogs"></i>
-                    <a href="#" class="button">Wyloguj się</a>
+                    <a href="http://localhost:8080/login" class="button">Wyloguj się</a>
                 </li>
             </ul>
         </nav>
         <main>
             <header>
-                <div class="menu">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <div class="logo-bar">
                     <img class="logo-in-bar" src="public/img/logo.svg">
-                </div>
-                <div class="user-profil">
-                    <i class="fas fa-user"></i>
-                </div>
             </header>
             <section class="project">
                     <?php if (isset($places))

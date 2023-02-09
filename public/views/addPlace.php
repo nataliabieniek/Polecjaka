@@ -25,15 +25,7 @@
         </nav>
         <main>
             <header>
-                <div class="menu">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <div class="logo-bar">
-                    <img class="logo-in-bar" src="public/img/logo.svg">
-                </div>
-                <div class="user-profil">
-                    <i class="fas fa-user"></i>
-                </div>
+                <img class="logo-in-bar" src="public/img/logo.svg">
             </header>
             <div class="project-add-place">
                 <div class="map">

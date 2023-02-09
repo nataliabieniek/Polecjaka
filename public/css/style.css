@@ -87,7 +87,7 @@ main{
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border-bottom: 1px solid grey;
     background: #362E79D6 0% 0% no-repeat padding-box;
     color: #EAE8F3D6 0% 0% no-repeat padding-box;;
@@ -96,15 +96,6 @@ header{
     padding-left: 1em;
     padding-right: 1em;
 }
-
-.menu{
-    margin:auto 0;    
-}
-
-.user-profil{
-    margin:auto 0;
-}
-
 .logo-in-bar{
     margin: 1em;
     height: 60%;
