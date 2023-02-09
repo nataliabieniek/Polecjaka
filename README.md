@@ -14,3 +14,5 @@ Strona rejestracji:
 Strona główna:
 ![image](https://user-images.githubusercontent.com/72561914/217785668-4b81ad6a-a290-4c94-bfab-1a2049c87c0c.png)
 
+Dodawanie własnego polecenia:
+![image](https://user-images.githubusercontent.com/72561914/217788891-3d44cfa6-9c7a-4566-8703-8cca0541257f.png)
